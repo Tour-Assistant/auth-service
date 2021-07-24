@@ -1,5 +1,5 @@
 service:
-  name: auth-service
+  name: tour-assistant-auth-service
 
 plugins:
   - serverless-bundle
