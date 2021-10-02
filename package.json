@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "deploy:dev": "sls deploy -v --stage dev",
+    "deploy:prod": "sls deploy -v --stage prod",
     "trace:auth": " sls logs -f auth -t"
   },
   "dependencies": {
