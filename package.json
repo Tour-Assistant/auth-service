@@ -7,6 +7,7 @@
   "scripts": {
     "deploy:dev": "sls deploy -v --stage dev",
     "deploy:prod": "sls deploy -v --stage prod",
+    "deploy:test": "sls deploy -v --stage test",
     "trace:auth": " sls logs -f auth -t"
   },
   "dependencies": {
